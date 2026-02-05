@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+ttsenv/
+
+# Data (DO NOT COMMIT AUDIO)
+ml/data/**
+!ml/data/README.md
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Model artifacts (optional)
+ml/artifacts/*.pt
+
+# TTS pipeline outputs
+tts_pipeline/
+
+# Sample human audio script
+scripts/sample_human_audio.py
